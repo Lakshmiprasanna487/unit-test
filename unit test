@@ -1,0 +1,12 @@
+package org.example;
+
+
+public class TestingExercise {
+    public static void main(String[] args) {
+        char[] chars = {'p', 'r', 'a', 's', 'a', 'n', 'n', 'a' };
+        for(int i=0;i<chars.length-1;++i){
+            chars[i] = (char) (chars[i] -32);
+        }
+        System.out.println(chars);
+    }
+}
